@@ -4,7 +4,7 @@ This repository contains digitized coordinates of sunspots, faculae and promenen
 
 ### Data source
 
-References to the original catalogs
+References to the original catalogs:
 
 | Years   |      Reference  |
 |----------|----------|
@@ -22,12 +22,12 @@ Numerical coordinates were recognized using the neural network model. More detai
 
 ### Data description
 
-Digitized coordinates are given in ```.csv``` files. Description of the columns is given below:
+Digitized coordinates are given in ```.csv``` files with the following format:
 
-| Column name   |      Description      |  Format |
+| Column name   |      Description      |  Data type |
 |----------|----------|------|
 | Date |  Date yyyy-mm-dd of the observation | str |
-| Object_type |  Type of the object (sunspot, faculae, prominence) | str |
+| Object |  Type of the object (sunspot, facula, prominence) | str |
 | Column_1 |  Coordinate β | float |
 | Column_2 |  Coordinate λ' | float |
 | Column_3 |  Coordinate λ+k | float |
@@ -45,7 +45,7 @@ Digitized coordinates are given in ```.csv``` files. Description of the columns 
 | Regression_5 |  True if the value in the Column_5 was computed based on the value in the Column_6 | bool |
 | Regression_6 |  True if the value in the Column_6 was computed based on the value in the Column_5 | bool |
 | Source |  Catalog name and page number | str |
-| Row |  Row number of the observation (starting from 1) | int |
+| Row |  Row number of the observation (starts from 1) | int |
 | Empty |  True if the row is empty | bool |
 
 ### Notes on data usage
@@ -54,9 +54,9 @@ The automatic digitization process was optimized to reduce the number of incorre
 
 We welcome contributions via Issues and Pull-Requests to this repository with errors corrections.
 
-For visual estimation of the digitization results we provide ```.pdf``` files with original and digitized pages on the website [AIP]().
+For visual estimation of the digitization results we provide ```.pdf``` files with page-by-page comparison of original and digitized tables in [Dropbox](https://www.dropbox.com/scl/fo/4bp33o3hwui5oudogjk2e/h?dl=0&rlkey=kqcxesk63ui6vjjzk3jqxa8e1).
 
 ### Citing this work
 ```
-E. Illarionov, R. Arlt. Reconstruction of the solar activity from the catalogs of the Zurich observatory. 2022
+E. Illarionov, R. Arlt. Reconstruction of the solar activity from the catalogs of the Zurich observatory. 2022.
 ```
