@@ -56,6 +56,9 @@ We welcome contributions via Issues and Pull-Requests to this repository with er
 
 For visual estimation of the digitization results we provide ```.pdf``` files with page-by-page comparison of original and digitized tables in [Dropbox](https://www.dropbox.com/scl/fo/4bp33o3hwui5oudogjk2e/h?dl=0&rlkey=kqcxesk63ui6vjjzk3jqxa8e1).
 
+![sample_zpage](https://user-images.githubusercontent.com/19876717/159781651-7f1d3de0-196f-4103-8b1e-80ef909b5ef4.jpg)
+
+
 ### Citing this work
 ```
 E. Illarionov, R. Arlt. Reconstruction of the solar activity from the catalogs of the Zurich observatory. 2022.
