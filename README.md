@@ -18,7 +18,7 @@ References to the original catalogs:
 
 ### Description of the digitization process
 
-Numerical coordinates were recognized using the neural network model. More details on the process are in the paper [Reconstruction of the solar activity from the catalogs of the Zurich observatory]().
+Numerical coordinates were recognized using the neural network model. More details on the process are in the paper [Reconstruction of the solar activity from the catalogs of the Zurich observatory](https://arxiv.org/abs/2205.10167).
 
 ### Data description
 
@@ -61,5 +61,5 @@ For visual estimation of the digitization results we provide ```.pdf``` files wi
 
 ### Citing this work
 ```
-E. Illarionov, R. Arlt. Reconstruction of the solar activity from the catalogs of the Zurich observatory. 2022.
+E. Illarionov, R. Arlt. Reconstruction of the solar activity from the catalogs of the Zurich observatory. arXiv e-prints, 2022.
 ```
